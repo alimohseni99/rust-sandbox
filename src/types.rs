@@ -1,4 +1,3 @@
-use crate::print;
 
 pub fn run(){
     // Default is "i32"
