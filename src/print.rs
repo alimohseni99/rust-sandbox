@@ -1,5 +1,9 @@
 pub fn run(){
     println!("Hello from print.rs file");
 
-    print!("{} tycker om {}", "Ali", "Rust");
+    // Basic formatting
+    println!("{} tycker om {}", "Ali", "Rust");
+
+    // Positional arguments
+    println!("{0} tycker om {1} och {1} tycker om {2}", "Ali", "Rust", "TS");
 }
