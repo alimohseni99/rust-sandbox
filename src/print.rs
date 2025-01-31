@@ -9,4 +9,7 @@ pub fn run(){
 
     // Named arguments
     println!("{name} tycker om {language}", name = "Ali", language = "Rust");
+
+    // Placeholder traits
+    println!("Binary: {:b}, Hex: {:x}, Octal: {:o}", 10, 10, 10);
 }
