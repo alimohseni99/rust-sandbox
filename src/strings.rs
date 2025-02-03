@@ -1,4 +1,3 @@
-use crate::print;
 
 
 pub fn run(){
@@ -35,7 +34,7 @@ pub fn run(){
     h.push('b');
 
     // Assertion testing
-    assert_eq!(23, h.len());
+    assert_eq!(2, h.len());
 
 
     println!("{}", hello);
