@@ -1,6 +1,6 @@
-mod loops;
+mod functions;
 fn main() {
 
-    loops::run();
+    functions::run();
    
 }
